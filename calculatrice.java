@@ -2,6 +2,7 @@ package exercices.exercice1;
 
 import java.util.Scanner;
 
+import exercices.exercice2.jeu;
 import exercices.exercice3.AnalysePhrase;
 
 public class calculatrice {
@@ -35,6 +36,8 @@ case 'A':
 	System.out.println("Phrases inversée: "+AnalysePhrase.inverserPhrase(phrase));
 	System.out.println("Voyelle est remplacée: "+AnalysePhrase.remplacerVoyelle(phrase , symbol));
 	break;
+case 'T':
+	jeu.trouvernombresecret();
 default:
 	System.out.println("operation invalide");
     break;
@@ -42,7 +45,7 @@ default:
 System.out.println("Entrez un nouvel opérateur (+, -, *, /, %, A) : ");
 operateur = sc.next().charAt(0);
 	}while(operateur=='+' ||operateur=='-' ||operateur=='*'||
-			operateur=='/'||operateur=='%'||operateur=='A');
+	       operateur=='/'||operateur=='%'||operateur=='A');
 sc.close();
 }
 }
