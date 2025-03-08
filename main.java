@@ -40,7 +40,8 @@ public class main {
     	System.out.println("3-multiplication(*): ");
     	System.out.println("4-division(/): ");
     	System.out.println("5-modulo(%): ");
-    	System.out.println("6-Analyser phrase(A): ");
+    	System.out.println("6-Trouver le nombre secret(T): ");
+    	System.out.println("7-Analyser phrase(A): ");
     	Scanner sc = new Scanner(System.in);
     	System.out.println("num1: ");
         int num1 = sc.nextInt();
